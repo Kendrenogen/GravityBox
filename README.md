@@ -1,8 +1,8 @@
 GravityBox
 ==========
 
-XPosed Tweak Box for devices running Android 10 (Q)
+XPosed Tweak Box for devices running Android 11 (R)
 
-Visit the [official support thread](http://forum.xda-developers.com/showthread.php?t=3974497) at XDA for more info.
+Visit the [official support thread](https://forum.xda-developers.com/t/app-r-xposed-gravitybox-v11-0-0-beta-1-for-android-11-04-01-2021.4213047) at XDA for more info.
 
-Copyright (C) 2019 Peter Gregus (xgravitybox@gmail.com)
+Copyright (C) 2021 Peter Gregus (xgravitybox@gmail.com)

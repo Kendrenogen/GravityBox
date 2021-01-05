@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 Peter Gregus for GravityBox Project (C3C076@xda)
+ * Copyright (C) 2021 Peter Gregus for GravityBox Project (C3C076@xda)
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -74,6 +74,7 @@ public class ModDialer {
         String[] CLASS_NAMES = new String[] {
                 "com.android.dialer.app.dialpad.DialpadFragment",
                 "com.android.dialer.dialpadview.DialpadFragment",
+                "egh",
                 "dyv"
         };
         String[] METHOD_NAMES = new String[] { "onResume", "playTone", "onPause" };
@@ -87,7 +88,7 @@ public class ModDialer {
                 if (methodName.equals("onResume") || methodName.equals("onPause")) {
                     m = XposedHelpers.findMethodExactIfExists(clazz, methodName);
                 } else if (methodName.equals("playTone")) {
-                    for (String realMethodName : new String[] { methodName, "a" }) {
+                    for (String realMethodName : new String[] { methodName, "s", "a" }) {
                         m = XposedHelpers.findMethodExactIfExists(clazz, realMethodName,
                             int.class, int.class);
                         if (m != null) break;

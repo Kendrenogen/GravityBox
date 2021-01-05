@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <string name="url_gravitybox" translatable="false">http://forum.xda-developers.com/showthread.php?t=3974497</string>
+    <string name="url_gravitybox" translatable="false">https://forum.xda-developers.com/t/app-r-xposed-gravitybox-v11-0-0-beta-1-for-android-11-04-01-2021.4213047</string>
     <string name="url_xposed" translatable="false">http://forum.xda-developers.com/xposed/xposed-installer-versions-changelog-t2714053</string>
     <string name="url_edxposed" translatable="false">https://github.com/ElderDrivers/EdXposed</string>
     <string name="url_riru" translatable="false">https://github.com/RikkaApps/Riru</string>
